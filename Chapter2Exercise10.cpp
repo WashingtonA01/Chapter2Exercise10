@@ -12,15 +12,18 @@ using namespace std;
 
 int main()
 {
-	int gallons = 15;
-	int miles = 375;
-	int mpr = miles / gallons;
+	double gallons , miles;
+	
 
-	cout << "How many gallons can the car hold? " << gallons << endl; 
+	cout << "How many gallons can your car hold? " << endl; 
+	cin >> gallons;
 
-	cout << "How many miles can it travel before needing to refuel? " << miles << endl;
+	cout << "How many miles can it travel before needing to refuel? " << endl;
+	cin >> miles;
 
-	cout << "How many miles per gallon does this car get? " << mpr; 
+	double mpg = miles / gallons;
+
+	cout << "Your car gets this many gallons per mile: " << mpg; 
 
 
 
