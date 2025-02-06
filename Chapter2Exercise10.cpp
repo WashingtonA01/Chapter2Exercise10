@@ -14,13 +14,13 @@ int main()
 {
 	int gallons = 15;
 	int miles = 375;
-	int mpr = miles / gallons;
+	int mpg = miles / gallons;
 
 	cout << "How many gallons can the car hold? " << gallons << endl; 
 
 	cout << "How many miles can it travel before needing to refuel? " << miles << endl;
 
-	cout << "How many miles per gallon does this car get? " << mpr; 
+	cout << "How many miles per gallon does this car get? " << mpg; 
 
 
 
